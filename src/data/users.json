@@ -1,0 +1,9 @@
+[
+    {"name": "ירון רונינשטיין", "email": "example@maccabi-dent.com", "role": "סמנכ'ל רפואה"},
+    {"name": "רינת דור", "email": "example@maccabi-dent.com", "role": "סמנכ'ל מא"},
+    {"name": "ניצה גלעד", "email": "example@maccabi-dent.com", "role": "סמנכ'ל תפעול"},
+    {"name": "גליה לוי", "email": "example@maccabi-dent.com", "role": "מנהל רפואה"},
+    {"name": "רם שפר", "email": "example@maccabi-dent.com", "role": "ס. מנכ'ל רפואה"},
+    {"name": "מיכל רובין", "email": "example@maccabi-dent.com", "role": "מנהל תפעול"},
+    {"name": "דינה משיח", "email": "example@maccabi-dent.com", "role": "רפואה"}
+]

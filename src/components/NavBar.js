@@ -10,7 +10,7 @@ const NavBar = () => {
    <AppBar>
     <div style={{width: '30%', display: 'flex', alignItems: 'center'}}>
             <div style={{marginLeft: '80px'}}>
-            <ChevronIcon />
+                <ChevronIcon />
             </div>
         <div style={{marginLeft: '20px', padding: '100px 0'}}>
             <p style={{margin: 0, color: '#FFFFFF', fontSize: '18px', fontWeight: 700}}>

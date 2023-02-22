@@ -23,7 +23,7 @@ const SideMenu = () => {
       <div style={{height: '80px', marginTop: '20px'}}>
         <Logo />
       </div>
-      <div style={{   height: '700px',
+      <div style={{   height: '80%',
                       display: 'flex',
                       justifyContent: 'center',
                       alignItems: 'center'
@@ -39,7 +39,10 @@ const SideMenu = () => {
           ))}
           </div>
       </div>
-          <div style={{alignItems: 'center', marginLeft: "60px", position: 'fixed', bottom: 30}}>
+          <div style={{display: 'flex',
+                      justifyContent: 'center',
+                      // alignItems: 'flex-end',
+                      background: '#fff'}}>
             <Exit>
             <span style={{marginRight: '10px'}}>יציאה</span><ExitIcon />
             </Exit>
@@ -53,8 +56,7 @@ const MainContainer = styled.div`
   width: 15%;
   float: right;
   justify-content: center;
-  // border-left: 1px solid black;
-  height: 98vh;
+  height: 100%
 `
 
 const NavigationLink = styled.li`
@@ -84,6 +86,8 @@ const Exit = styled.li`
   align-items: center;
   padding-right: 10px;
   width: 191px;
+  margin-top: 200px;
+
 `
 
 export default SideMenu
